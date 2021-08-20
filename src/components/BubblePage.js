@@ -41,7 +41,9 @@ const BubblePage = () => {
       .then((res) => {
         console.log(res);
 
-        setColors(colors.filter((color) => color.id != res.data));
+        setColors(
+          colors.filter((color) => color.id !== Number.parseInt(res.data))
+        );
         console.log(colors);
       });
   };
