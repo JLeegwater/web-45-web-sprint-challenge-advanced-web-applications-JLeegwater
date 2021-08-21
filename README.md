@@ -60,10 +60,10 @@ Your finished project must include all of the following requirements. **Unlike o
 
 > _Add in the http requests and state changes needed to connect our api to the web application. Consider the effect of authentication on your api requests._
 
-- [ ] In `services/fetchColorServices.js`, build out fetchColorService function to make a GET request to fetch the color data for your bubbles.
-- [ ] When `BubblePages` mounts, call fetchColorServices and save it's result in state.
-- [ ] In `BubblePage.js`, complete `saveEdit`, and `deleteColor` functions to make API requests for to editing and delete data.
-- [ ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
+- [x] In `services/fetchColorServices.js`, build out fetchColorService function to make a GET request to fetch the color data for your bubbles.
+- [x] When `BubblePages` mounts, call fetchColorServices and save it's result in state.
+- [x] In `BubblePage.js`, complete `saveEdit`, and `deleteColor` functions to make API requests for to editing and delete data.
+- [x] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
 
 #### Testing
 
@@ -106,7 +106,7 @@ Your finished project must include all of the following requirements. **Unlike o
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
-1. Explain what a token is used for.
-2. What steps can you take in your web apps to keep your data secure?
-3. Describe how web servers work.
-4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+1. Explain what a token is used for. a token is used as meta data to authenticate that a user has logged in with a valid account
+2. What steps can you take in your web apps to keep your data secure? use axios with auth
+3. Describe how web servers work. web servers wait for a request and then when it gets a request it does what its asked and sends the client whatever it wanted.
+4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers. post, get, put, delete.
