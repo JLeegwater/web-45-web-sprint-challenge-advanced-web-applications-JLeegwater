@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import PrivateRoute from "./components/PrivateRoute";
 import BubblePage from "./components/BubblePage";
 import axiosWithAuth from "./helpers/axiosWithAuth";
@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <header>
           Color Picker Sprint Challenge
-          <a data-testid="logoutButton" href="#" onClick={logout}>
+          <a data-testid="logoutButton" href="/#" onClick={logout}>
             logout
           </a>
         </header>

@@ -13,7 +13,7 @@ const BubblePage = () => {
     fetchColorService()
       .then((res) => {
         setColors(res.data);
-        //console.log(res);
+        console.log(res);
       })
       .catch((err) => console.error(err));
   }, []);
